@@ -1,0 +1,118 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	/* font-size: 16px;
+	font-weight: normal; */
+	font-family: "Roboto", sans-serif;
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	padding: 150px 0px 0px 0px;
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.main__container {
+	max-width: 1020px;
+	margin: 0px auto;
+	background: #5D62B5;
+	border-radius: 20px;
+	height: 700px;
+	padding: 104px 0px 0px 83px;
+	position: relative;
+}
+.main__items {
+	max-width: 583px;	
+}
+.who-we-are__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #F5F5F5;
+	margin: 0px 0px 33px 0px;
+	/* background: url('../img/icon.svg') 0 0 no-repeat;
+	padding: 1px 0px 0px 38px; */
+}
+.who-we-are__subtitle::before{
+	content: ""; 
+	background: url('../img/icon.svg') 0 0 no-repeat;
+	display: inline-block;
+	width: 28px;
+	height: 27px;
+	position: relative;
+	top: 9px;
+	padding: 0px 0px 0px 16px;
+}
+.who-we-are__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin: 0px 0px 36px 0px;
+}
+.main__text {
+	max-width: 846px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	margin: 0px 0px 54px 0px;
+}
+.image-dog__image {
+	position: relative;
+	z-index: 1;
+}
+.image-blob__image {
+	position: relative;
+	top: -464px;
+	left: -36px;
+	/* position: absolute;
+	top: 362px;
+	left: 47px; */
+}
+.image-circles__image {
+	position: absolute;
+	top: -105px;
+	right: -72px;
+}
